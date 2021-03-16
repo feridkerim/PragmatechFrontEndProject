@@ -6,25 +6,25 @@
 
 
 
-var arr = [9, 2, 7, 8 , 1, 5];
+var arr = [9, 2, 7, 8, 1, 5];
 
-var a = 7;
+var a = 6;
 
-var b= 3;
+var b = 3;
 
 
 for (let index = 0; index < arr.length; index++) {
     const element = arr[index];
 
-    if(element == a || element == b ){
-        var f=true
+    if (element == a || element == b) {
+        var f = true
         break
-    }else{
-        
-        var f=false
-        
+    } else {
+
+        var f = false
+
     }
-    
+
 }
 
 console.log(f)

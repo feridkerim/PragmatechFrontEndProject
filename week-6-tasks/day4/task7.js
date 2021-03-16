@@ -7,20 +7,23 @@
 
 
 
-var arr = [10,20,30,40,50,60,70];
+let arr = [10, 20, 30, 40, 50, 60, 70];
 
 
-var a =60;
+let a = 20;
 
 
+let b = []
 
 
+for (let i = 0; i < arr.length; i++) {
+    if (a == arr[i]) {
+        for (let j = i + 1; j < arr.length; j++) {
+            b.push(arr[j])
 
-for (let index = 0; index < arr.length; index++) {
-    const element = arr[index];
-    if(a == arr[index]){
-        console.log(arr.length-arr.indexOf(a)-1)
-        var c = arr.indexOf(a)
-        console.log(arr.slice(c+1))
+        }
     }
+
 }
+
+console.log(b.length)

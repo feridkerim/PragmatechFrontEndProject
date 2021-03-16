@@ -3,7 +3,7 @@
 // Example: 0 1 1 2 3 5 8 13 21 34  
 
 
-var num = 10;
+var num = 5;
 var num1 = 0;
 var num2 = 1;
 var result = '';

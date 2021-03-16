@@ -1,0 +1,7 @@
+// Trim
+
+
+
+let trim = (str)=>{
+
+}

@@ -1,0 +1,63 @@
+.d-flex {
+    display: flex;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-33 {
+    width: 33.3%;
+}
+
+.h-150 {
+    height: 150px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.m-1 {
+    margin: 1%;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.h-50 {
+    height: 50px;
+}

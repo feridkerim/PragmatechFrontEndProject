@@ -1,0 +1,209 @@
+.d-flex {
+    display: flex
+}
+
+.w-10 {
+    width: 10%
+}
+
+.w-20 {
+    width: 20%
+}
+
+.w-30 {
+    width: 30%
+}
+
+.w-33 {
+    width: 33.33%
+}
+
+.w-40 {
+    width: 40%
+}
+
+.w-50 {
+    width: 50%
+}
+
+.w-60 {
+    width: 60%
+}
+
+.w-70 {
+    width: 70%
+}
+
+.w-80 {
+    width: 80%
+}
+
+.w-90 {
+    width: 90%
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.px-16 {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.px-24 {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.pr-24 {
+    padding-right: 24px
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pl-0 {
+    padding-left: 0
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.m-0 {
+    margin: 0
+}
+
+.mt-0 {
+    margin-top: 0
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.list-none {
+    list-style: none
+}
+
+.bg-97aab0 {
+    background-color: #97aab0;
+}
+
+.bg-212b2d {
+    background-color: #212b2d;
+}
+
+.bg-333d3f {
+    background-color: #333d3f;
+}
+
+.bg-39585d {
+    background-color: #39585d;
+}
+
+.color-white {
+    color: #fff
+}
+
+.color-97aab0 {
+    color: #97aab0
+}
+
+.bg-globus {
+    background-image: url('../img/globus.png')
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-right-top {
+    background-position: right top
+}
+
+.bg-size-50p {
+    background-size: 50%
+}
+
+.menu li {
+    padding: 0 30px;
+    border-left: 1px solid black;
+}
+
+.menu li:first-child {
+    border-left: 0
+}
+
+.menu-sidebar a,
+.menu a {
+    color: #97aab0;
+    text-decoration: none;
+}
+
+.menu-sidebar li {
+    margin-top: 5px
+}
+
+.border-t-97aab0 {
+    border-top: 1px solid #97aab0
+}
+
+.border-b-97aab0 {
+    border-bottom: 1px solid #97aab0
+}
+
+.border-l-97aab0 {
+    border-left: 1px solid #97aab0
+}
+
+.lh-130 {
+    line-height: 130%
+}
+
+.btn {
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+}

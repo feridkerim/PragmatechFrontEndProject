@@ -5,22 +5,25 @@
 
 
 
-var a = 1.7;
+let a = 24.56;
 
+let e = Math.floor(a)
 
-var c = Math.floor(a)
+let b = a + ''
 
-var b = a-c
+let d = ''
 
+let c = 0
 
-console.log(b)
+for (let i = 0; i < b.length; i++) {
 
+    if (b[i] == '.') {
+        for (let j = i + 1; j < b.length; j++) {
 
-if(b<0.100){
-    var d = b*10
-    console.log(c+Math.floor(d))
-}else{
+            c += b[j]
 
-    var d = b*100
-    console.log(c+Math.floor(d))
+        }
+    }
 }
+
+console.log(Number(c) + e)

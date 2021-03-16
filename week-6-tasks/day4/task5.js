@@ -3,16 +3,19 @@
 // Məsələn: SALAM => SAlam
 
 
-var word = 'SALAM'
+let word = 'SALAM'
 
 
+let a = ''
 
+for (let i = 0; i <= word.length - 1; i++) {
 
-if(word.length > 3 ){
-    var a = word.slice(-3)
-    var c= a.toLowerCase()
-    var b = word.slice(0,-3) 
-    console.log(b+c)   
-}else{
-    console.log(word)
+    if (i == word.length - 1 || i == word.length - 2 || i == word.length - 3) {
+        let charCode = word[i].charCodeAt();
+        a += String.fromCharCode(charCode + 32);
+    } else {
+        a += word[i];
+    }
 }
+
+console.log(a);

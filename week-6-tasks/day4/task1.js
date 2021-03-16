@@ -6,10 +6,14 @@
 
 const arr = ["BMW", "Fiat", "Mercedez", "Audi", "Opel", "Bentley"];
 
-for (var str= 0; str<arr.length; str++ ){
+let a = ''
 
-    console.log(arr[str]+ '-')
-    
+for (var str = 0; str < arr.length - 1; str++) {
+
+    a += arr[str] + '-'
+
+
 
 }
 
+console.log(a + arr[arr.length - 1])

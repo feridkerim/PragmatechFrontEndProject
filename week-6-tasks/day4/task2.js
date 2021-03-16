@@ -35,48 +35,48 @@
 
 
 
-var students = [ 
+var students = [
 
-  {
+    {
 
-      name: 'John',
+        name: 'John',
 
-      surname: 'Doe',
+        surname: 'Doe',
 
-      age: 41
+        age: 41
 
-  },
+    },
 
-  {
+    {
 
-      name: 'Lorem',
+        name: 'Lorem',
 
-      surname: 'Ipsum',
+        surname: 'Ipsum',
 
-      age: 34
+        age: 34
 
-  },
+    },
 
-  {
+    {
 
-      name: 'Dummy',
+        name: 'Dummy',
 
-      surname: 'Name',
+        surname: 'Name',
 
-      age: 24
+        age: 24
 
-  }];
-
-
-    var sum = 0;
+    }
+];
 
 
-  for (let str = 0; str < students.length; str++) {
-      const element = students[str];
-      console.log('Ad:',element.name+',', 'Familiya:', element.surname+',', 'Yas:', element.age  )
-      
-      sum = sum+students[str]
-  }
+var sum = 0;
 
 
- 
+for (let str = 0; str < students.length; str++) {
+    const element = students[str];
+    console.log('Ad:', element.name + ',', 'Familiya:', element.surname + ',', 'Yas:', element.age)
+
+    sum += element.age
+}
+
+console.log(sum)
